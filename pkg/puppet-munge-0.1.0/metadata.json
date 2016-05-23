@@ -1,5 +1,5 @@
 {
-  "name": "sjoeboo-munge",
+  "name": "puppet-munge",
   "version": "0.1.0",
   "author": "sjoeboo",
   "summary": "Install and manage MUNGE",
