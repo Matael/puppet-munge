@@ -1,8 +1,8 @@
 class munge::service (
   ) {
     service {'munge':
-      enable  => true,
       ensure  => running,
+      enable  => true,
       require => Class['munge::key'],
     }
   }
