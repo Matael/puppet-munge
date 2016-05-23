@@ -4,7 +4,7 @@ class munge::key (
   $user     = $::munge::user,
   $group    = $::munge::group,
   ) {
-    file {$::key_dest:
+    file { $key_dest:
       source  => $key_src,
       user    => $user,
       group   => $group,
