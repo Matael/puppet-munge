@@ -6,7 +6,7 @@ class munge::key (
   ) {
     file { $key_dest:
       source  => $key_src,
-      user    => $user,
+      owner   => $user,
       group   => $group,
       notify  => Service['munge'],
       require => Class['munge::install'],
