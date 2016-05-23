@@ -2,7 +2,7 @@ class munge::service (
   ) {
     service {'munge':
       enable  => true,
-      status  => running,
+      ensure  => running,
       require => Class['munge::key'],
     }
   }
