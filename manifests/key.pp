@@ -8,6 +8,7 @@ class munge::key (
       source  => $key_src,
       owner   => $user,
       group   => $group,
+      mode    => 0600,
       notify  => Service['munge'],
       require => Class['munge::install'],
     }
