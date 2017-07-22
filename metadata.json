@@ -1,12 +1,12 @@
 {
-  "name": "sjoeboo-munge",
-  "version": "0.1.1",
-  "author": "sjoeboo",
-  "summary": "Install and manage MUNGE",
+  "name": "matael-munge",
+  "version": "0.1.2",
+  "author": "Matael",
+  "summary": "Install and manage MUNGE (based on sjoeboo/puppet-munge)",
   "license": "Apache-2.0",
-  "source": "http://github.com/sjoeboo/puppet-munge",
-  "project_page": "https://github.com/sjoeboo/puppet-munge",
-  "issues_url": "https://github.com/sjoeboo/puppet-munge/issues",
+  "source": "http://github.com/Matael/puppet-munge",
+  "project_page": "https://github.com/Matael/puppet-munge",
+  "issues_url": "https://github.com/Matael/puppet-munge/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
   ],
