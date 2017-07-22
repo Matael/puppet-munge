@@ -5,7 +5,7 @@ class munge::key (
   $group    = $::munge::group,
   ) {
     file { $key_dest:
-      source  => $key_src,
+      content  => template($key_src),
       owner   => $user,
       group   => $group,
       mode    => '0600',
